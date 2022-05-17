@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tVContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="170dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:text="Title:"/>
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="250dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="Cuisine:"/>
+
+        <TextView
+            android:id="@+id/cuisineTv"
+            android:layout_width="250dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Cooking Time:"/>
+
+        <TextView
+            android:id="@+id/cookTimeTv"
+            android:layout_width="50dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:text="Servings:"/>
+
+        <TextView
+            android:id="@+id/servingsTv"
+            android:layout_width="50dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="Method:"/>
+
+        <TextView
+            android:id="@+id/methodTv"
+            android:layout_width="260dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/editBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Edit"/>
+
+    <Button
+        android:id="@+id/closeBtn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Close"/>
+
+</LinearLayout>
